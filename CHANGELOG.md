@@ -1,3 +1,9 @@
+## 1.0.4 (2025-06-27)
+
+### Fix
+
+- correct dependency restraint declarations
+
 ## 1.0.3 (2025-06-27)
 
 ### Fix
