@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1615714fd145f711e640e62ca8cea776",
+    "content-hash": "701ebf3a6dc859a9edfd2d6306845024",
     "packages": [
         {
             "name": "php-contrib/serializer",
@@ -4734,7 +4734,9 @@
     "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
+    "platform": {
+        "php": ">=8.3"
+    },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
