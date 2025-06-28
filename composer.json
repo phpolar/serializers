@@ -32,7 +32,7 @@
     "ci:analyze": "composer exec \"@analyze\"",
     "ci:lint": "composer exec \"@lint\"",
     "ci:lint-fix": "composer exec \"@lint-fix\"",
-    "ci:test-build": "@test --configuration=phpunit.ci.xml --testsuite unit",
+    "ci:test-build": "@test --configuration=phpunit.dev.xml --testsuite unit",
     "ci:test": "XDEBUG_MODE=coverage composer exec \"@test --configuration=phpunit.ci.xml --coverage-clover=build/logs/clover.xml\"",
     "ci:generate-coverage-badge": [
       "@test --configuration=phpunit.ci.xml",
