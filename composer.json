@@ -15,7 +15,7 @@
     "squizlabs/php_codesniffer": "^3.13"
   },
   "license": "MIT",
-  "provides": {
+  "provide": {
     "php-contrib/serializer-implementation": "^1.0"
   },
   "scripts": {
